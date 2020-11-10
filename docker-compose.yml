@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  server:
+    build: .
+    ports:
+      - "25565:25565"
+    volumes:
+      - world:/usr/minecraft/world
+  ngrok:
+    env_file: .env.local
+    image: wernight/ngrok
+    network_mode: host
+volumes:
+  world:
+networks: 
+  default:
