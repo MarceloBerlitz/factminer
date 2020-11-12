@@ -12,5 +12,5 @@ services:
     network_mode: host
 volumes:
   world:
-networks: 
+networks:
   default:
