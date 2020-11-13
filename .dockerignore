@@ -1,2 +1,2 @@
-ngrok
-ngrok/*
+Dockerfile
+.env.local
