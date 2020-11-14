@@ -1,2 +1,4 @@
 Dockerfile
 .env.local
+docker-compose.yml
+README.md
