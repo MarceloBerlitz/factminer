@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/java/jre:8-zulu-alpine
+FROM marceloberlitz/openjdk8-jre-base:alpine
 
 WORKDIR /usr/minecraft
 
