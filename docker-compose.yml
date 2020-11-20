@@ -9,10 +9,12 @@ services:
       - /d/Drive/minecraft/world_nether:/usr/minecraft/world_nether
       - /d/Drive/minecraft/world_the_end:/usr/minecraft/world_the_end
       - /d/Drive/minecraft/world_survival:/usr/minecraft/world_survival
+      - /d/Drive/minecraft/world_survival_nether:/usr/minecraft/world_survival_nether
       - /d/Drive/minecraft/plugins/WorldEdit:/usr/minecraft/plugins/WorldEdit
       - /d/Drive/minecraft/plugins/WorldGuard:/usr/minecraft/plugins/WorldGuard
       - /d/Drive/minecraft/plugins/Multiverse-Core:/usr/minecraft/plugins/Multiverse-Core
       - /d/Drive/minecraft/plugins/Multiverse-Inventories:/usr/minecraft/plugins/Multiverse-Inventories
+      - /d/Drive/minecraft/plugins/Multiverse-NetherPortals:/usr/minecraft/plugins/Multiverse-NetherPortals
       - /d/Drive/minecraft/plugins/bStats:/usr/minecraft/plugins/bStats
       - /d/Drive/minecraft/logs:/usr/minecraft/logs
       - /d/Drive/minecraft/cache:/usr/minecraft/cache
