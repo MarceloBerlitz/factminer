@@ -1,10 +1,13 @@
-FROM marceloberlitz/openjdk8-jre-base:alpine
+FROM openjdk:17-jdk-slim
 
 WORKDIR /usr/minecraft
 
-ADD https://papermc.io/api/v1/paper/1.16.4/274/download ./server.jar
-ADD https://media.forgecdn.net/files/3100/517/worldedit-bukkit-7.2.0-dist.jar ./plugins/WorldEdit.jar
-ADD https://media.forgecdn.net/files/3066/271/worldguard-bukkit-7.0.4.jar ./plugins/WorldGuard.jar
+ADD https://api.papermc.io/v2/projects/paper/versions/1.19.2/builds/307/downloads/paper-1.19.2-307.jar ./server.jar
+ADD https://mediafilez.forgecdn.net/files/3922/624/worldedit-bukkit-7.2.12.jar ./plugins/WorldEdit.jar
+ADD https://mediafilez.forgecdn.net/files/3903/109/worldguard-bukkit-7.0.8-beta-01-dist.jar ./plugins/WorldGuard.jar
+ADD https://mediafilez.forgecdn.net/files/3462/546/Multiverse-Core-4.3.1.jar ./plugins/MultiverseCore.jar
+ADD https://mediafilez.forgecdn.net/files/3687/469/Multiverse-Inventories-4.2.3.jar ./plugins/MultiverseInventories.jar
+ADD https://mediafilez.forgecdn.net/files/3687/506/Multiverse-NetherPortals-4.2.2.jar ./plugins/MultiverseNetherPortals.jar
 
 COPY . .
 
