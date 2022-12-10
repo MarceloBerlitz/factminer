@@ -1,0 +1,5 @@
+https://mediafilez.forgecdn.net/files/3922/624/worldedit-bukkit-7.2.12.jar
+https://mediafilez.forgecdn.net/files/3903/109/worldguard-bukkit-7.0.8-beta-01-dist.jar
+https://mediafilez.forgecdn.net/files/3462/546/Multiverse-Core-4.3.1.jar
+https://mediafilez.forgecdn.net/files/3687/469/Multiverse-Inventories-4.2.3.jar
+https://mediafilez.forgecdn.net/files/3687/506/Multiverse-NetherPortals-4.2.2.jar
