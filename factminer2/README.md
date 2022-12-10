@@ -23,8 +23,7 @@ At the repository directory, run:
 docker-compose up --build
 
 ## Connecting to server console
-docker exec -i {container name} rcon-cli
-ex: docker exec -i eef78d7e9e8a3d13b50e969f29550e6585a412ee6da08b2ba92429872c2d4e4f rcon-cli
+docker exec -i factminer2-minecraft-1 rcon-cli
 
 ## Adding plugins:
 - Download and add to the volume folder
