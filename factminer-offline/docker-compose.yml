@@ -8,9 +8,7 @@ services:
       - /e/My Drive/minecraft/factminer-offline/world:/usr/minecraft/world
       - /e/My Drive/minecraft/factminer-offline/world_nether:/usr/minecraft/world_nether
       - /e/My Drive/minecraft/factminer-offline/world_the_end:/usr/minecraft/world_the_end
-      - /e/My Drive/minecraft/factminer-offline/plugins/WorldEdit:/usr/minecraft/plugins/WorldEdit
-      - /e/My Drive/minecraft/factminer-offline/plugins/WorldGuard:/usr/minecraft/plugins/WorldGuard
-      - /e/My Drive/minecraft/factminer-offline/plugins/bStats:/usr/minecraft/plugins/bStats
+      - /e/My Drive/minecraft/factminer-offline/plugins:/usr/minecraft/plugins
       - /e/My Drive/minecraft/factminer-offline/logs:/usr/minecraft/logs
       - /e/My Drive/minecraft/factminer-offline/cache:/usr/minecraft/cache
     stdin_open: true

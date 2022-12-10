@@ -16,10 +16,8 @@ NGROK_DEBUG=true
 ## Running
 At the repository directory, run:
 docker-compose build
-docker-compose run --rm server
+docker-compose run --rm --service-ports server
 docker-compose run --rm ngrok
 Stop server with command "stop".
 ## Adding plugins:
 - Add the link into the Dockerfile;
-- Create the volume pointing to the new plugin directory inside "plugins"
-
