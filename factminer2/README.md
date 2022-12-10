@@ -3,6 +3,7 @@
 ## Requirements
 - Docker
 - Docker Compose
+- NGROK Account
 
 ## First time
 
@@ -26,7 +27,7 @@ At the repository directory, run:
 ## Connecting to the server console
 ```docker exec -i factminer2-minecraft-1 rcon-cli```
 
-## Adding plugins:
+## Adding plugins
 - Download and add to the plugins volume folder
 
 ## Backup
