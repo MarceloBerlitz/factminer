@@ -4,8 +4,8 @@ services:
   minecraft:
     image: itzg/minecraft-server
     volumes:
-      - /e/My Drive/minecraft/factminer2/data:/data
-      - /e/My Drive/minecraft/factminer2/plugins:/plugins
+      - /e/minecraft/factminer2/data:/data
+      - /e/minecraft/factminer2/plugins:/plugins
     ports:
       - 25565:25565
     environment:
