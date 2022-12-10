@@ -29,3 +29,4 @@ docker exec -i factminer2-minecraft-1 rcon-cli
 - Download and add to the volume folder
 
 ## Backup
+docker exec factminer2-backup-1 backup
