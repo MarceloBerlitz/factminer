@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    volumes:
+      - minecraftdata:/data
+      - /root/minecraft/plugins:/plugins
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      OPS: "KnudHitchhiker"
+      ENABLE_WHITELIST: "FALSE"
+      ENFORCE_WHITELIST: "FALSE"
+      ONLINE_MODE: "FALSE"
+      VERSION: "1.19.2"
+      MEMORY: ""
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+volumes:
+  minecraftdata:
+    external: true
