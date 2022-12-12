@@ -31,6 +31,5 @@ At the repository directory, run:
 - Download and add to the plugins volume folder
 
 ## Backup
-- Backup runs at ```00:00``` and at ```12:00```
 - To force the backup run:
 ```docker exec factminer2-backup-1 backup```
