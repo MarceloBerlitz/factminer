@@ -33,3 +33,5 @@ At the repository directory, run:
 ## Backup
 - To force the backup run:
 ```docker exec factminer2-backup-1 backup```
+- Restore example:
+```docker run --rm -it -v minecraftdata:/backup/minecraft -v ~/minecraft/factminer2/backups:/archive:ro alpine tar -xvzf /archive/backup-2022-12-16T16-17-31.tar.gz```
