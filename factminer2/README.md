@@ -27,6 +27,9 @@ At the repository directory, run:
 ## Connecting to the server console
 ```docker exec -i factminer2-minecraft-1 rcon-cli```
 
+## Getting Ngrok url
+```docker logs [container_id] | grep url```
+
 ## Adding plugins
 - Download and add to the plugins volume folder
 
