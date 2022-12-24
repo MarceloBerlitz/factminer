@@ -22,7 +22,7 @@ NGROK_DEBUG=true
 
 ## Running
 At the repository directory, run:
-```docker-compose up --build```
+```docker compose up --build -d```
 
 ## Connecting to the server console
 ```docker exec -i factminer2-minecraft-1 rcon-cli```

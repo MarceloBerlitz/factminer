@@ -5,18 +5,18 @@ services:
     image: itzg/minecraft-server
     volumes:
       - minecraftdata:/data
-      - /e/My Drive/minecraft/factminer2/plugins:/plugins
+      - ~/minecraft/factminer2/plugins:/plugins
     ports:
       - 25565:25565
     environment:
       EULA: "TRUE"
       TYPE: "PAPER"
       OPS: "KnudHitchhiker"
-      ENABLE_WHITELIST: "FALSE"
-      ENFORCE_WHITELIST: "FALSE"
+      ENABLE_WHITELIST: "TRUE"
+      ENFORCE_WHITELIST: "TRUE"
       ONLINE_MODE: "FALSE"
       VERSION: "1.19.2"
-      MEMORY: "2G"
+      MEMORY: "4G"
     tty: true
     stdin_open: true
     restart: unless-stopped
@@ -33,7 +33,7 @@ services:
     volumes:
       - minecraftdata:/backup/minecraft:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /e/My Drive/minecraft/factminer2/backups:/archive
+      - ~/minecraft/factminer2/backups:/archive
 volumes:
   minecraftdata:
     external: true
