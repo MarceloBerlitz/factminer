@@ -17,6 +17,7 @@ services:
       ONLINE_MODE: "FALSE"
       VERSION: "1.19.2"
       MEMORY: "4G"
+      SPIGET_RESOURCES: "2124"
     tty: true
     stdin_open: true
     restart: unless-stopped
