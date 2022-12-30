@@ -5,7 +5,7 @@ services:
     image: itzg/minecraft-server
     volumes:
       - minecraftdata:/data
-      - ~/minecraft/factminer2/plugins:/plugins
+      - /home/marcelo/minecraft/factminer2/plugins:/plugins
     ports:
       - 25565:25565
     environment:
@@ -34,7 +34,7 @@ services:
     volumes:
       - minecraftdata:/backup/minecraft:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - ~/minecraft/factminer2/backups:/archive
+      - /home/marcelo/minecraft/factminer2/backups:/archive
 volumes:
   minecraftdata:
     external: true
